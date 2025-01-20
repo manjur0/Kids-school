@@ -1,0 +1,16 @@
+/* Mobile responsive css */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #fea301;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .logo-title,
+  .menu-items,
+  .nav-btn {
+    display: none;
+  }
+}
