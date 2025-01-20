@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font family */
+/* all title font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* all paragraph font */
+p {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* container css */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+section {
+  padding: 6rem 0px;
+}
+ul > li {
+  list-style: none;
+}
+.btn-primary {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background: #fea301;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* navbar css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+}
+.logo,
+.logo > h1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+.menu-items > li {
+  margin-left: 5rem;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+.home {
+  color: #fea301;
+}
+.about {
+  color: #01acfd;
+}
+.facilities {
+  color: #05d4df;
+}
+.admission {
+  color: #5d58ef;
+}
