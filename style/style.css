@@ -246,3 +246,22 @@ ul > li {
   font-weight: 500;
   line-height: 28.296px;
 }
+/* Arrow button icon css */
+.arrow-icon {
+  padding: 2rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.arrow {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: #fea301;
+  border-radius: 50%;
+  color: white;
+  border: none;
+}
+/* Our stories section css */
