@@ -1,6 +1,7 @@
 /* Mobile devices max-width 768px responsive css */
 @media (max-width: 768px) {
-  .navbar {
+  .navbar,
+  .hero-container {
     padding: 1rem 1rem;
     border-bottom: 1px solid #fea301;
   }
@@ -12,5 +13,23 @@
   .menu-items,
   .nav-btn {
     display: none;
+  }
+  /* hero section responsive css */
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .hero-content {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-description {
+    font-size: 14px;
+  }
+  .hero-img {
+    width: 100%;
   }
 }
