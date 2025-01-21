@@ -52,4 +52,24 @@
   .arrow-icon {
     display: none;
   }
+  /* Our Stories
+section responsive css */
+  .stories-item1 {
+    display: none;
+  }
+  .stories-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 1rem;
+  }
+  .stories-item2,
+  .stories-item3,
+  .stories-item4,
+  .stories-item5 {
+    width: 100%;
+  }
+  .stories-item-title1 {
+    font-size: 1rem;
+  }
 }
