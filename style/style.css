@@ -154,10 +154,10 @@ ul > li {
   color: #000;
   text-align: center;
   font-family: Quicksand;
-  font-size: 46px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 57.5px;
+  /* line-height: 57.5px; */
   padding: 6rem 0px;
 }
 .curriculum-item {
@@ -170,7 +170,6 @@ ul > li {
   gap: 32.069px;
   flex-shrink: 0;
   border-radius: 18.864px;
-  margin-bottom: 3rem;
 }
 .curriculum-item img {
   width: 100px;

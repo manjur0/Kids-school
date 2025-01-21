@@ -1,7 +1,6 @@
 /* Mobile devices max-width 768px responsive css */
 @media (max-width: 768px) {
-  .navbar,
-  .hero-container {
+  .navbar {
     padding: 1rem 1rem;
     border-bottom: 1px solid #fea301;
   }
@@ -15,8 +14,10 @@
     display: none;
   }
   /* hero section responsive css */
+
   .hero-container {
     flex-direction: column-reverse;
+    padding: 0rem 1rem;
     gap: 2rem;
   }
   .hero-content {
@@ -31,5 +32,21 @@
   }
   .hero-img {
     width: 100%;
+  }
+  /* Standard curriculum section responsive css */
+  .curriculum-container {
+    padding: 0rem 1rem;
+  }
+  .curriculum-item {
+    width: 100%;
+  }
+  .curriculum-title {
+    font-size: 2rem;
+    padding: 3rem 0px;
+  }
+  .curriculum-items {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 0rem;
   }
 }
