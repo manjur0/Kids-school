@@ -99,3 +99,38 @@ ul > li {
 }
 
 /* Hero section css */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+.hero-content {
+  width: 640px;
+}
+.hero-title {
+  color: #111;
+  font-family: Quicksand;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px;
+}
+.empowering {
+  color: #fea301;
+}
+.towards {
+  color: #01acfd;
+}
+.horo-description {
+  padding: 2rem 0px;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #111111;
+}
+.hero-btn {
+  background: #111;
+}

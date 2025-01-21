@@ -1,4 +1,4 @@
-/* Mobile responsive css */
+/* Mobile devices max-width 768px responsive css */
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem 1rem;
