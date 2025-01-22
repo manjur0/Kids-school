@@ -73,5 +73,18 @@ section responsive css */
     font-size: 2rem;
     padding: 1rem 0px;
   }
-  /*  */
+  /* footer section responsive css  */
+ 
+  .footer-content {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+  .footer-item {
+    width: 100%;
+  }
+  .social-icons img {
+    margin-bottom: 2rem;
+  }
 }

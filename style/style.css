@@ -371,9 +371,9 @@ ul > li {
 footer {
   background: #01acfd;
   color: white;
-  height: 40vh;
+  height: 100%;
   text-align: left;
-  padding-top: 2rem;
+  padding: 2rem 0px;
 }
 .footer-content {
   display: flex;
