@@ -76,6 +76,15 @@
   .stories-item {
     width: 100%;
   }
+  .stories-item button {
+    font-size: 12px;
+    padding: 0.2rem 0.4rem;
+    top: 40%;
+  }
+  .stories-item6 button,
+  .stories-item7 button {
+    top: 45%;
+  }
   .stories-item h3 {
     font-size: 12px;
     padding: 0.5rem 1rem;
