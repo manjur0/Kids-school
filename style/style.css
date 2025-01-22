@@ -329,6 +329,7 @@ ul > li {
   padding-bottom: 2rem;
   width: 100%;
 }
+/* date btn css */
 .stories-item1 {
   position: relative;
 }
@@ -338,15 +339,58 @@ ul > li {
   padding: 0.5rem 1rem;
   border-radius: 5rem;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 20px;
+}
+.stories-item2,
+.stories-item3,
+.stories-item4,
+.stories-item5,
+.stories-item6,
+.stories-item7 {
+  position: relative;
+}
+.cart-btn {
+  background: #fea301;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  position: absolute;
+  top: 60%;
+  left: 20px;
+}
+.stories-item2 button {
+  top: 65%;
+  background: #95b226;
+}
+.stories-item3 button {
+  top: 65%;
+  background: #5d58f0;
+}
+.stories-item4 button {
+  top: 65%;
+  background: #95b226;
+}
+.stories-item5 button {
+  top: 65%;
+  background: #95b226;
+}
+.stories-item6 button {
+  top: 65%;
+  background: #01acfd;
+}
+.stories-item7 button {
+  top: 65%;
+  background: #01acfd;
 }
 .stories-item h3 {
   color: #000;
   font-family: Quicksand;
   font-size: 15.339px;
   font-weight: 700;
-  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
 }
 .stories-item img {
   width: 100%;
