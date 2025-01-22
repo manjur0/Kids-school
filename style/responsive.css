@@ -52,29 +52,32 @@
   .arrow-icon {
     display: none;
   }
-  /* Our Stories
-section responsive css */
+  /* Our Stories section responsive css */
   .stories-item1 {
     display: none;
   }
+  .stories-item6,
+  .stories-item7 {
+    display: block;
+  }
   .stories-items {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
   }
-  .stories-item2,
-  .stories-item3,
-  .stories-item4,
-  .stories-item5 {
+  .stories-item {
     width: 100%;
   }
   .stories-title {
     font-size: 2rem;
     padding: 1rem 0px;
   }
+
   /* footer section responsive css  */
- 
+
   .footer-content {
     flex-direction: column;
     height: 100%;
