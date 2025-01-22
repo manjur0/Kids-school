@@ -13,6 +13,11 @@
   .nav-btn {
     display: none;
   }
+  marquee {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
   /* hero section responsive css */
 
   .hero-container {
@@ -83,7 +88,7 @@
   }
   .stories-item6 button,
   .stories-item7 button {
-    top: 45%;
+    top: 40%;
   }
   .stories-item h3 {
     font-size: 12px;
