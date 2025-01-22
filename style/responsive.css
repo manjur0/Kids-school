@@ -37,6 +37,10 @@
   .curriculum-container {
     padding: 0rem 1rem;
   }
+  .curriculum-items {
+    flex-direction: column;
+    gap: 2rem;
+  }
   .curriculum-item {
     width: 100%;
   }
@@ -63,15 +67,20 @@
     display: block;
   }
   .stories-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)auto;
-    gap: 2rem;
-    justify-content: end;
+    grid-template-columns: repeat(2, 1fr) auto;
+    justify-content: center;
     align-items: stretch;
+    width: 100%;
+    gap: 6px;
   }
   .stories-item {
     width: 100%;
   }
+  .stories-item h3 {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+  }
+
   .stories-title {
     font-size: 2rem;
     padding: 1rem 0px;

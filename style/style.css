@@ -317,7 +317,8 @@ ul > li {
 }
 .stories-items {
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
+  justify-content: center;
   grid-template-areas:
     "stories-item1 stories-item1 stories-item2 stories-item3 "
     "stories-item1 stories-item1 stories-item4 stories-item5 "
@@ -326,6 +327,19 @@ ul > li {
 .stories-item {
   border-radius: 1rem;
   padding-bottom: 2rem;
+  width: 100%;
+}
+.stories-item1 {
+  position: relative;
+}
+.date-btn-primay {
+  background: #3cd8e8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  position: absolute;
+  top: 55%;
+  left: 20px;
 }
 .stories-item h3 {
   color: #000;
@@ -336,11 +350,10 @@ ul > li {
 }
 .stories-item img {
   width: 100%;
-  height: auto;
   border-radius: 16px 16px 0 0;
 }
 .stories-item1 {
-  width: 540.267px;
+  /* width: 540.267px; */
   height: auto;
   background: white;
   /* box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset; */
