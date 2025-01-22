@@ -56,6 +56,8 @@
   .stories-item1 {
     display: none;
   }
+  .our-stories-container {
+  }
   .stories-item6,
   .stories-item7 {
     display: block;
