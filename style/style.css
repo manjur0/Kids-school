@@ -366,3 +366,73 @@ ul > li {
   background: black;
   color: white;
 }
+
+/* Footer Section css */
+footer {
+  background: #01acfd;
+  color: white;
+  height: 40vh;
+  text-align: left;
+  padding-top: 2rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  width: 30%;
+}
+.footer-item h2 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  padding: 2rem 0px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-logo img {
+  width: 82.902px;
+  height: 81.652px;
+}
+.footer-logo-title {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  padding: 2rem 0px;
+}
+.footer-description {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-item ul li {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.social-icons img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}

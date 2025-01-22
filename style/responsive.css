@@ -69,7 +69,9 @@ section responsive css */
   .stories-item5 {
     width: 100%;
   }
-  .stories-item-title1 {
-    font-size: 1rem;
+  .stories-title {
+    font-size: 2rem;
+    padding: 1rem 0px;
   }
+  /*  */
 }
